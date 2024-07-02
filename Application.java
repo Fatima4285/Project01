@@ -20,6 +20,8 @@ public class Application {
         scanner.close();
     }
     
+    /*@param operation accepts a String argument of the operation to perform
+     * @return there is no return value*/
     public static void switchExpression(String operation) {
     	Scanner scanner = new Scanner(System.in);
     	//switch expression determines what operation to perform
@@ -63,9 +65,9 @@ public class Application {
         default:
         	System.out.println("You did not enter a correct operation");
         	break;
-        // Further processing based on operation
         	
     }
+        scanner.close();
     }
     
     /*adds two numbers
